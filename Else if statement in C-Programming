@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+    int number;
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+    if (number < 0) 
+{
+        printf("The number is negative.\n");
+    } 
+else if (number == 0) 
+{
+        printf("The number is zero.\n");
+    } 
+else if (number > 0 && number <= 10)
+ {
+        printf("The number is between 1 and 10.\n");
+    } 
+else if (number > 10 && number <= 100) 
+{
+        printf("The number is between 11 and 100.\n");
+    }
+ else
+ {
+        printf("The number is greater than 100.\n");
+    }
+    return 0;
+}
